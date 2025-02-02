@@ -47,11 +47,10 @@ body{
     background-color: blue;
     border:none;
     color: white;
-    display: none;
 margin-top: 3vmin;
 }
-#reser{
-    margin-left: 40vmin;
+#reset{
+   display: none;
 }
 .reset:hover{
 height: 9vmin;
