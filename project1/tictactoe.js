@@ -1,5 +1,5 @@
 let boxes=document.querySelectorAll("#box");
-let resetbtn=document.querySelector(".reset");
+let resetbtn=document.querySelector("#reset");
 let newgame=document.querySelector("#newgame");
 let turn0=true;
 let winnerbox=document.querySelector("#winner");
@@ -13,6 +13,8 @@ let playerO=document.querySelector("#playerO");
     
 
 start.addEventListener("click",()=>{
+    count=0;
+    turn0=true;
     form.style.display="none";
     resetbtn.style.display="block";
     ground.style.display="block";
@@ -70,16 +72,11 @@ boxes.forEach((box) => {
         winnerbox.children[0].innerText = 'It\'s a draw!';
         return
         }
-    
-        
- });
-
-    
+ }); 
 });
 
 resetbtn.addEventListener("click",()=>
 {
-
     turn0=true;
     boxes.forEach((box)=>{
         box.innerText="";

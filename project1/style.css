@@ -4,9 +4,10 @@
 }
 
 body{
-    background-color: aquamarine;
+    background-color: #82B2C0;
     text-align: center;
     align-items: center;
+    justify-items: center;
 }
 
 #ground{
@@ -49,6 +50,9 @@ body{
     display: none;
 margin-top: 3vmin;
 }
+#reser{
+    margin-left: 40vmin;
+}
 .reset:hover{
 height: 9vmin;
 width: 16vmin;
@@ -78,7 +82,7 @@ width: 16vmin;
 }
 #data{
     height:40vh;
-    background-color: antiquewhite;
+    background-color: #ECF8FD;
     width:50vh;
     margin-bottom: 0px;
     padding: 20px;
@@ -91,7 +95,7 @@ margin-top: 13vmin;
 p{
     width: 5vmin;
     font-size: 3vmin;
-color: blue;
+color: #003366;
 font-family: 'Times New Roman', Times, serif;
 padding: 10px;
 font-weight: bolder;
