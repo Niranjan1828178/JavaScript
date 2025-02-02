@@ -11,13 +11,12 @@ body{
 
 #ground{
     display: flex;
-    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
-    height: 70vh;
+    height: 60vh;
     display: none;
     justify-items: center;
-    margin-top: 10vmin;
+    margin-top: 6vmin;
 }
 #game{
     
@@ -40,56 +39,53 @@ body{
 }
 
 .reset{
-    width: 15vmin;
-    height: 8vmin;
+    width: 12vmin;
+    height: 7vmin;
     border-radius: 2vmin;
     font-size: larger;
     background-color: blue;
     border:none;
     color: white;
     display: none;
+margin-top: 3vmin;
 }
 .reset:hover{
 height: 9vmin;
-width: 17vmin;
+width: 16vmin;
 
 }
 
 #winner{
     display: none;
-    height: 15vmin;
+    height: 14vmin;
     justify-items: center;
     margin-bottom: 2vmin;   
 }
 #state
 {
-    width: 30vmin;
+    width: 80vmin;
     font-size: 5vmin;
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
-    color: antiquewhite;
+    color: #E0EDF4;
 
 }
 #container{
     height: 70vh;
     align-items: center;
-    /* background-color: aqua; */
     justify-items: center;
-    /* justify-content: center; */
+    
 }
 #data{
     height:40vh;
     background-color: antiquewhite;
-    /* justify-content: center; */
-    /* align-items: center; */
     width:50vh;
     margin-bottom: 0px;
     padding: 20px;
-    /* left: 40%; */
 display: flex;
 flex-direction: column;
 border-radius: 5vmin;
-margin-top: 15vmin;
+margin-top: 13vmin;
 }
 
 p{
@@ -130,4 +126,10 @@ color: black;
 font-weight: bolder;
 font-size: 10vmin;
 margin-top: 5vmin;
+}
+
+#logo{
+    height: 0.5vmin;
+    width: 0.5vmin;
+    border-radius: 50%;
 }
