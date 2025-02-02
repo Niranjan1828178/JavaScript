@@ -1,0 +1,2 @@
+website== mdn web docs
+resume:: https://app.resumekraft.com/editor/customize/resume/-OBt6VfiNxpo30bMu-yr
