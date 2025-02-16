@@ -82,5 +82,9 @@ function Clicked(choice){
     }
     you.innerText=Your_score;
     com.innerText=Computer_score;
+    p='<img src="images/'+choice+'.jpeg" class="img_choice"></img>';
+    c='<img src="images/'+Com_choice+'.jpeg" class="img_choice"></img>';
+    document.querySelector(".your_choice").innerHTML=p;
+    document.querySelector(".com_choice").innerHTML=c;
     
 }
